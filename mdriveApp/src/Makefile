@@ -25,9 +25,10 @@ mdrive_DBD += asSupport.dbd
 mdrive_DBD += devIocStats.dbd
 mdrive_DBD += calcSupport.dbd
 mdrive_DBD += reccaster.dbd
+mdrive_DBD += motorSupport.dbd devImsMotor.dbd
 
 # Add all the support libraries needed by this IOC
-mdrive_LIBS += asyn busy calc stream autosave devIocStats reccaster
+mdrive_LIBS += asyn busy calc  stream autosave devIocStats reccaster motor Ims
 
 # mdrive_registerRecordDeviceDriver.cpp derives from mdrive.dbd
 mdrive_SRCS += mdrive_registerRecordDeviceDriver.cpp
