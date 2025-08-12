@@ -9,10 +9,10 @@ record(motor,"$(P)$(M)")
 
 	# Use of MRES is deliberate on the following line. 
 	# This sets the retry deadband to the smallest possible size.
-	field(RDBD, $(MRES="1"))	# Retry Deadband
+	field(RDBD, $(MRES="1.953125E-5"))	# Retry Deadband
 	field(MRES, $(MRES="1.953125e-5"))        # Motor Step Size (EGU) MRES=SREV/UREV
 	field(EGU,  $(EGU="Rev"))      # Engineering Units
-	field(PREC, $(PREC="4"))        # Precision 
+	field(PREC, $(PREC="6"))        # Precision 
 
 	field(VBAS, $(VBAS="0.2"))	# EGU/sec
 	field(VELO, $(VELO="0.5"))	# EGU/sec
