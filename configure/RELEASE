@@ -24,13 +24,13 @@
 # Variables and paths to dependent modules:
 #MODULES = /path/to/modules
 #MYMODULE = $(MODULES)/my-module
-IMS=/epics/modules/ims
+#IMS=/epics/modules/ims
 
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ = $(MODULES)/seq-ver
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
-EPICS_BASE = /usr/lib/epics
+#EPICS_BASE = /usr/lib/epics
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:
