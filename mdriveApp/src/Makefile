@@ -23,7 +23,6 @@ mdrive_DBD += calc.dbd calcSupport.dbd
 mdrive_DBD += stream.dbd
 mdrive_DBD += asSupport.dbd
 mdrive_DBD += devIocStats.dbd
-mdrive_DBD += calcSupport.dbd
 mdrive_DBD += reccaster.dbd
 mdrive_DBD += motorSupport.dbd devImsMotor.dbd
 
